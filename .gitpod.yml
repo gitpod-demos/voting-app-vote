@@ -1,0 +1,8 @@
+tasks:
+  - name: Test
+    command: |
+      docker compose -f docker-compose.yml up
+
+ports:
+  - port: 5000
+    onOpen: open-preview
