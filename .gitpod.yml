@@ -1,7 +1,7 @@
 tasks:
   - name: Test
     command: |
-      docker compose -f docker-compose.yml up
+      docker compose -f docker-compose.test.yml up
 
 ports:
   - port: 5000
